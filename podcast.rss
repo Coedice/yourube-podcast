@@ -30,7 +30,7 @@ explicit: "no"
 			<itunes:email>{{ page.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:explicit>No</itunes:explicit>
-		<itunes:image href="{{ '/assets/image.png' | absolute_url }}"/>
+		<itunes:image href="{{ '/assets/icon.png' | absolute_url }}"/>
 		<itunes:category text="{{ page.category }}" />
 		{% for episode in site.data.episodes %}
 		<item>
